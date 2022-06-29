@@ -2,6 +2,15 @@ table, th, td {
   border: 1px solid black;
 }
 
+table {
+  width: 800px;
+  margin: 0px auto;
+}
+
+.left-column {
+  width: 200px;
+}
+
 .food-picture {
   height: 220px;
 }
