@@ -8,18 +8,19 @@
   <link rel="stylesheet" href="recipetable.css">
 </head>
 <body>
-  <table>
-    <tr>
-      <th colspan="2">Recipe Name</th>
-    </tr>
-    <tr>
-      <td colspan="2">
+  <div class="recipe-table">
+    <div class="recipe-header-row">
+      <div class="recipe-header-cell">
+        Recipe Name
+      </div>
+    </div>
+    <div class="recipe-image-row">
+      <div class="recipe-image-cell">
         <img class="food-picture" src="images/puppy.jpg">
-      </td>
-    </tr>
-    <tr>
-      <td class="left-column">
-        <!-- Make number of servings dynamic -->
+      </div>
+    </div>
+    <div class="recipe-row-one">
+      <div class="recipe-servings-cell">
         Number of Servings
         <select name="1" id="num-of-servings">
           <option value="1">1</option>
@@ -27,27 +28,29 @@
           <option value="1">4</option>
           <option value="1">8</option>
         </select>
-      </td>
-      <td>Directions</td>
-    </tr>
-    <tr>
-      <td class="left-column">
+      </div>
+      <div class="recipe-directions-header-cell">
+        Directions
+      </div>
+    </div>
+    <div class="recipe-row-two">
+      <div class="recipe-ingredients-cell">
         Ingredients
         <ul>
           <li>1 pound of beef</li>
           <li>1 teaspoon of salt</li>
           <li>1 teaspoon of pepper</li>
         </ul>
-      </td>
-      <td>
-        <p>
+      </div>
+      <div class="recipe-directions-cell">
+        <p class="step-one">
           1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
-        <p>
+        <p class="step-two">
           2. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-      </td>
-    </tr>
-  </table>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
