@@ -22,11 +22,11 @@
     <div class="recipe-row-one">
       <div class="recipe-servings-cell">
         Number of Servings
-        <select name="1" id="num-of-servings">
+        <select name="1" id="num-of-servings" onchange="servingSize()">
           <option value="1">1</option>
-          <option value="1">2</option>
-          <option value="1">4</option>
-          <option value="1">8</option>
+          <option value="2">2</option>
+          <option value="4">4</option>
+          <option value="8">8</option>
         </select>
       </div>
       <div class="recipe-directions-header-cell">
@@ -34,12 +34,13 @@
       </div>
     </div>
     <div class="recipe-row-two">
+      <!-- All this needs to be dynamic -->
       <div class="recipe-ingredients-cell">
         Ingredients
         <ul>
-          <li>1 pound of beef</li>
-          <li>1 teaspoon of salt</li>
-          <li>1 teaspoon of pepper</li>
+          <li id="first-ingredient">1 pound of beef</li>
+          <li id="second-ingredient">1 teaspoon of salt</li>
+          <li id="third-ingredient">1 teaspoon of pepper</li>
         </ul>
       </div>
       <div class="recipe-directions-cell">
@@ -50,7 +51,9 @@
           2. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
+      <!-- End dynamic -->
     </div>
   </div>
+  <script src="recipetable.js"></script>
 </body>
 </html>
