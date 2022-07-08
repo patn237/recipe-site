@@ -11,7 +11,7 @@
   <div class="recipe-table">
     <div class="recipe-header-row">
       <div class="recipe-header-cell">
-        Recipe Name
+        Chili
       </div>
     </div>
     <div class="recipe-image-row">
@@ -22,11 +22,11 @@
     <div class="recipe-row-one">
       <div class="recipe-servings-cell">
         Number of Servings
-        <select name="1" id="num-of-servings" onchange="servingSize()">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="4">4</option>
-          <option value="8">8</option>
+        <select name="1" id="num-of-servings" onchange="servingSize(this)">
+          <option value="first">4</option>
+          <option value="second">6</option>
+          <option value="third">8</option>
+          <option value="fourth">12</option>
         </select>
       </div>
       <div class="recipe-directions-header-cell">
@@ -54,6 +54,6 @@
       <!-- End dynamic -->
     </div>
   </div>
-  <script src="recipetable.js"></script>
+  <script src="recipetablecopy.js"></script>
 </body>
 </html>
