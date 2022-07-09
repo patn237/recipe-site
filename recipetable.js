@@ -2,25 +2,16 @@
 // View
 // Controller
 
+let sel = document.getElementById("num-of-servings");
 
-function servingSize() {
-  let selection = document.getElementById("num-of-servings").value;
+function servingSize(sel) {
+  let firstIngredient = document.getElementById("first-ingredient");
+  let secondIngredient = document.getElementById("second-ingredient");
+  let thirdIngredient = document.getElementById("third-ingredient");
 
-  if (selection === "4") {
-    document.getElementById("first-ingredient").innerHTML = (1 * selection) + " pounds of beef";
-    document.getElementById("second-ingredient").innerHTML = (1 * selection) + " teaspoons of salt";
-    document.getElementById("third-ingredient").innerHTML = (1 * selection) + " teaspoons of pepper";
-  } else if (selection === "6") {
-    document.getElementById("first-ingredient").innerHTML = (1 * selection) + " pounds of beef";
-    document.getElementById("second-ingredient").innerHTML = (1 * selection) + " teaspoons of salt";
-    document.getElementById("third-ingredient").innerHTML = (1 * selection) + " teaspoons of pepper";
-  } else if (selection === "8") {
-    document.getElementById("first-ingredient").innerHTML = (1 * selection) + " pounds of beef";
-    document.getElementById("second-ingredient").innerHTML = (1 * selection) + " teaspoons of salt";
-    document.getElementById("third-ingredient").innerHTML = (1 * selection) + " teaspoons of pepper";
-  } else if (selection === "12"){
-    document.getElementById("first-ingredient").innerHTML = (1 * selection) + " pounds of beef";
-    document.getElementById("second-ingredient").innerHTML = (1 * selection) + " teaspoons of salt";
-    document.getElementById("third-ingredient").innerHTML = (1 * selection) + " teaspoons of pepper";
-  }
+  const selText = sel.options[sel.selectedIndex].text;
+
+  firstIngredient.innerText = `${selText} pounds of beef`;
+  secondIngredient.innerText = `${selText} teaspoons of salt`;
+  thirdIngredient.innerText = `${selText} teaspoons of pepper`;
 }
