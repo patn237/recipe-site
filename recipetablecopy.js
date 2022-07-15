@@ -38,3 +38,27 @@ function servingSize(sel) {
   secondIngredient.innerText = `${selText} teaspoons of salt`;
   thirdIngredient.innerText = `${selText} teaspoons of pepper`;
 }
+
+
+// function servingSize(e) {
+//   const sel = e.value;
+//   const selText = parseInt(e.options[e.selectedIndex].innerText);
+
+//   if (sel === "first") {
+//     document.getElementById("first-ingredient").innerText = (1 * selText) + " pounds of beef";
+//     document.getElementById("second-ingredient").innerText = (1 * selText) + " teaspoons of salt";
+//     document.getElementById("third-ingredient").innerText = (1 * selText) + " teaspoons of pepper";
+//   } else if (sel === "second") {
+//     document.getElementById("first-ingredient").innerText = (1 * selText) + " pounds of beef";
+//     document.getElementById("second-ingredient").innerText = (1 * selText) + " teaspoons of salt";
+//     document.getElementById("third-ingredient").innerText = (1 * selText) + " teaspoons of pepper";
+//   } else if (sel === "third") {
+//     document.getElementById("first-ingredient").innerText = (1 * selText) + " pounds of beef";
+//     document.getElementById("second-ingredient").innerText = (1 * selText) + " teaspoons of salt";
+//     document.getElementById("third-ingredient").innerText = (1 * selText) + " teaspoons of pepper";
+//   } else if (sel === "fourth") {
+//     document.getElementById("first-ingredient").innerText = (1 * selText) + " pounds of beef";
+//     document.getElementById("second-ingredient").innerText = (1 * selText) + " teaspoons of salt";
+//     document.getElementById("third-ingredient").innerText = (1 * selText) + " teaspoons of pepper";
+//   }
+// }
