@@ -6,7 +6,7 @@ let sel = document.getElementById("num-of-servings");
 
 window.onload = function() {
   // Display first option by default
-  renderList();
+  renderIngredientsList();
   servingSize(sel);
 };
 
@@ -83,6 +83,8 @@ function sixServings() {
   let thirteenthIngredient = document.getElementById("thirteenth-ingredient");
   let fourteenthIngredient = document.getElementById("fourteenth-ingredient");
 
+  let stepOne = document.getElementById("first-step");
+
   firstIngredient.innerText = "1.5 pounds of ground beef";
   secondIngredient.innerText = "1 yellow onion, diced";
   thirdIngredient.innerText = "1 green pepper, diced";
@@ -97,6 +99,9 @@ function sixServings() {
   twelfthIngredient.innerText = "4 tbsp chili powder";
   thirteenthIngredient.innerText = "1 tsp cumin";
   fourteenthIngredient.innerText = "1 tsp salt";
+
+  
+  stepOne.innerHTML = "1. Add the ground beef, onion, and bell pepper to a large deep pot and cook over medium heat, breaking up the meat as it cooks. When meat is cooked through drain fat from pan.";
 }
 
 function eigthServings() {
@@ -165,7 +170,7 @@ function twelveServings() {
   fourteenthIngredient.innerText = "2 tsp salt";
 }
 
-function renderList() {
+function renderIngredientsList() {
   
   const optionOne = document.createElement("li");
   optionOne.setAttribute("id","first-ingredient");
@@ -196,6 +201,7 @@ function renderList() {
   const optionFourteen = document.createElement("li");
   optionFourteen.setAttribute("id","fourteenth-ingredient");
 
+
   const ingredientsList = document.getElementById("ingredient-list");
   ingredientsList.appendChild(optionOne);
   ingredientsList.appendChild(optionTwo);
@@ -212,3 +218,31 @@ function renderList() {
   ingredientsList.appendChild(optionThirteen);
   ingredientsList.appendChild(optionFourteen);
 }
+
+// function renderDirections() {
+  
+//   const stepOne = document.createElement("p");
+//   stepOne.setAttribute("id","step-one");
+//   const nodeOne = document.createTextNode("1. Add the ground beef, onion, and bell pepper to a large deep pot and cook over medium heat, breaking up the meat as it cooks. When meat is cooked through drain fat from pan.");
+//   stepOne.appendChild(nodeOne);
+//   const stepTwo = document.createElement("p");
+//   stepTwo.setAttribute("id","step-two");
+//   const nodeTwo = document.createTextNode("2. Add the jalapeno, garlic, tomato,");
+//   stepTwo.appendChild(nodeTwo);
+//   const stepThree = document.createElement("p");
+//   stepThree.setAttribute("id","step-three");
+//   const nodeThree = document.createTextNode("3. blah blah");
+//   stepThree.appendChild(nodeThree);
+//   const stepFour = document.createElement("p");
+//   stepFour.setAttribute("id","step-four");
+//   const nodeFour = document.createTextNode("4. bang bang");
+//   stepFour.appendChild(nodeFour);
+
+  
+
+//   const directions = document.getElementById("recipe-directions-cell");
+//   directions.appendChild(stepOne);
+//   directions.appendChild(stepTwo);
+//   directions.appendChild(stepThree);
+//   directions.appendChild(stepFour);
+// }
