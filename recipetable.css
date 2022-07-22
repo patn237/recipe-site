@@ -67,6 +67,20 @@
 .recipe-directions-header-cell {
   padding-top: 2px;
   padding-left: 1px;
+  display: flex;
+  flex-direction: row;
+}
+
+.recipe-directions-header-cell-left {
+  flex: 1;
+}
+
+.recipe-directions-header-cell-middle {
+  margin-right: 4px;
+}
+
+.recipe-directions-header-cell-right {
+  margin-right: 4px;
 }
 
 .recipe-directions-cell {

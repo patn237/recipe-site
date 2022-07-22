@@ -238,7 +238,7 @@ function renderDirections() {
   const fourthStep = document.getElementById("step-four");
 
   firstStep.innerText = "1. Add the ground beef, onion, and bell pepper to a large deep pot and cook over medium heat, breaking up the meat as it cooks. When meat is cooked through drain fat from pan.";
-  secondStep.innerText = "2. Add the jalapeno, garlic, tomato paste, diced tomatoes, beef broth, chili powder, cumin, and salt and stir.";
+  secondStep.innerText = "2. Add the jalapeno, garlic, tomato paste, diced tomatoes, bone beef broth, chili powder, cumin, and salt, then stir.";
   thirdStep.innerText = "3. Bring to a boil and reduce to a simmer. Simmer for at least 20 minutes, preferably an hour for the best taste and texture.";
-  fourthStep.innerText = "4. Serve with sour cream and shredded cheddar, as desired.";
+  fourthStep.innerText = "4. Serve with sour cream, shredded cheddar, and avocado as desired.";
 }
