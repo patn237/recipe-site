@@ -7,6 +7,7 @@ let sel = document.getElementById("num-of-servings");
 window.onload = function() {
   // Display first option by default
   renderIngredientsList();
+  renderDirections();
   servingSize(sel);
 };
 
@@ -35,20 +36,20 @@ function servingSize(sel) {
 
 function fourServings() {
   
-  let firstIngredient = document.getElementById("first-ingredient");
-  let secondIngredient = document.getElementById("second-ingredient");
-  let thirdIngredient = document.getElementById("third-ingredient");
-  let fourthIngredient = document.getElementById("fourth-ingredient");
-  let fifthIngredient = document.getElementById("fifth-ingredient");
-  let sixthIngredient = document.getElementById("sixth-ingredient");
-  let seventhIngredient = document.getElementById("seventh-ingredient");
-  let eigthIngredient = document.getElementById("eigth-ingredient");
-  let ninthIngredient = document.getElementById("ninth-ingredient");
-  let tenthIngredient = document.getElementById("tenth-ingredient");
-  let eleventhIngredient = document.getElementById("eleventh-ingredient");
-  let twelfthIngredient = document.getElementById("twelfth-ingredient");
-  let thirteenthIngredient = document.getElementById("thirteenth-ingredient");
-  let fourteenthIngredient = document.getElementById("fourteenth-ingredient");
+  const firstIngredient = document.getElementById("first-ingredient");
+  const secondIngredient = document.getElementById("second-ingredient");
+  const thirdIngredient = document.getElementById("third-ingredient");
+  const fourthIngredient = document.getElementById("fourth-ingredient");
+  const fifthIngredient = document.getElementById("fifth-ingredient");
+  const sixthIngredient = document.getElementById("sixth-ingredient");
+  const seventhIngredient = document.getElementById("seventh-ingredient");
+  const eigthIngredient = document.getElementById("eigth-ingredient");
+  const ninthIngredient = document.getElementById("ninth-ingredient");
+  const tenthIngredient = document.getElementById("tenth-ingredient");
+  const eleventhIngredient = document.getElementById("eleventh-ingredient");
+  const twelfthIngredient = document.getElementById("twelfth-ingredient");
+  const thirteenthIngredient = document.getElementById("thirteenth-ingredient");
+  const fourteenthIngredient = document.getElementById("fourteenth-ingredient");
 
   firstIngredient.innerText = "1.25 pound of ground beef";
   secondIngredient.innerText = ".75 yellow onion, diced";
@@ -68,22 +69,20 @@ function fourServings() {
 
 function sixServings() {
   
-  let firstIngredient = document.getElementById("first-ingredient");
-  let secondIngredient = document.getElementById("second-ingredient");
-  let thirdIngredient = document.getElementById("third-ingredient");
-  let fourthIngredient = document.getElementById("fourth-ingredient");
-  let fifthIngredient = document.getElementById("fifth-ingredient");
-  let sixthIngredient = document.getElementById("sixth-ingredient");
-  let seventhIngredient = document.getElementById("seventh-ingredient");
-  let eigthIngredient = document.getElementById("eigth-ingredient");
-  let ninthIngredient = document.getElementById("ninth-ingredient");
-  let tenthIngredient = document.getElementById("tenth-ingredient");
-  let eleventhIngredient = document.getElementById("eleventh-ingredient");
-  let twelfthIngredient = document.getElementById("twelfth-ingredient");
-  let thirteenthIngredient = document.getElementById("thirteenth-ingredient");
-  let fourteenthIngredient = document.getElementById("fourteenth-ingredient");
-
-  let stepOne = document.getElementById("first-step");
+  const firstIngredient = document.getElementById("first-ingredient");
+  const secondIngredient = document.getElementById("second-ingredient");
+  const thirdIngredient = document.getElementById("third-ingredient");
+  const fourthIngredient = document.getElementById("fourth-ingredient");
+  const fifthIngredient = document.getElementById("fifth-ingredient");
+  const sixthIngredient = document.getElementById("sixth-ingredient");
+  const seventhIngredient = document.getElementById("seventh-ingredient");
+  const eigthIngredient = document.getElementById("eigth-ingredient");
+  const ninthIngredient = document.getElementById("ninth-ingredient");
+  const tenthIngredient = document.getElementById("tenth-ingredient");
+  const eleventhIngredient = document.getElementById("eleventh-ingredient");
+  const twelfthIngredient = document.getElementById("twelfth-ingredient");
+  const thirteenthIngredient = document.getElementById("thirteenth-ingredient");
+  const fourteenthIngredient = document.getElementById("fourteenth-ingredient");
 
   firstIngredient.innerText = "1.5 pounds of ground beef";
   secondIngredient.innerText = "1 yellow onion, diced";
@@ -99,27 +98,24 @@ function sixServings() {
   twelfthIngredient.innerText = "4 tbsp chili powder";
   thirteenthIngredient.innerText = "1 tsp cumin";
   fourteenthIngredient.innerText = "1 tsp salt";
-
-  
-  stepOne.innerHTML = "1. Add the ground beef, onion, and bell pepper to a large deep pot and cook over medium heat, breaking up the meat as it cooks. When meat is cooked through drain fat from pan.";
 }
 
 function eigthServings() {
   
-  let firstIngredient = document.getElementById("first-ingredient");
-  let secondIngredient = document.getElementById("second-ingredient");
-  let thirdIngredient = document.getElementById("third-ingredient");
-  let fourthIngredient = document.getElementById("fourth-ingredient");
-  let fifthIngredient = document.getElementById("fifth-ingredient");
-  let sixthIngredient = document.getElementById("sixth-ingredient");
-  let seventhIngredient = document.getElementById("seventh-ingredient");
-  let eigthIngredient = document.getElementById("eigth-ingredient");
-  let ninthIngredient = document.getElementById("ninth-ingredient");
-  let tenthIngredient = document.getElementById("tenth-ingredient");
-  let eleventhIngredient = document.getElementById("eleventh-ingredient");
-  let twelfthIngredient = document.getElementById("twelfth-ingredient");
-  let thirteenthIngredient = document.getElementById("thirteenth-ingredient");
-  let fourteenthIngredient = document.getElementById("fourteenth-ingredient");
+  const firstIngredient = document.getElementById("first-ingredient");
+  const secondIngredient = document.getElementById("second-ingredient");
+  const thirdIngredient = document.getElementById("third-ingredient");
+  const fourthIngredient = document.getElementById("fourth-ingredient");
+  const fifthIngredient = document.getElementById("fifth-ingredient");
+  const sixthIngredient = document.getElementById("sixth-ingredient");
+  const seventhIngredient = document.getElementById("seventh-ingredient");
+  const eigthIngredient = document.getElementById("eigth-ingredient");
+  const ninthIngredient = document.getElementById("ninth-ingredient");
+  const tenthIngredient = document.getElementById("tenth-ingredient");
+  const eleventhIngredient = document.getElementById("eleventh-ingredient");
+  const twelfthIngredient = document.getElementById("twelfth-ingredient");
+  const thirteenthIngredient = document.getElementById("thirteenth-ingredient");
+  const fourteenthIngredient = document.getElementById("fourteenth-ingredient");
 
   firstIngredient.innerText = "1.75 pounds of ground beef";
   secondIngredient.innerText = "1.25 yellow onion, diced";
@@ -139,20 +135,20 @@ function eigthServings() {
 
 function twelveServings() {
   
-  let firstIngredient = document.getElementById("first-ingredient");
-  let secondIngredient = document.getElementById("second-ingredient");
-  let thirdIngredient = document.getElementById("third-ingredient");
-  let fourthIngredient = document.getElementById("fourth-ingredient");
-  let fifthIngredient = document.getElementById("fifth-ingredient");
-  let sixthIngredient = document.getElementById("sixth-ingredient");
-  let seventhIngredient = document.getElementById("seventh-ingredient");
-  let eigthIngredient = document.getElementById("eigth-ingredient");
-  let ninthIngredient = document.getElementById("ninth-ingredient");
-  let tenthIngredient = document.getElementById("tenth-ingredient");
-  let eleventhIngredient = document.getElementById("eleventh-ingredient");
-  let twelfthIngredient = document.getElementById("twelfth-ingredient");
-  let thirteenthIngredient = document.getElementById("thirteenth-ingredient");
-  let fourteenthIngredient = document.getElementById("fourteenth-ingredient");
+  const firstIngredient = document.getElementById("first-ingredient");
+  const secondIngredient = document.getElementById("second-ingredient");
+  const thirdIngredient = document.getElementById("third-ingredient");
+  const fourthIngredient = document.getElementById("fourth-ingredient");
+  const fifthIngredient = document.getElementById("fifth-ingredient");
+  const sixthIngredient = document.getElementById("sixth-ingredient");
+  const seventhIngredient = document.getElementById("seventh-ingredient");
+  const eigthIngredient = document.getElementById("eigth-ingredient");
+  const ninthIngredient = document.getElementById("ninth-ingredient");
+  const tenthIngredient = document.getElementById("tenth-ingredient");
+  const eleventhIngredient = document.getElementById("eleventh-ingredient");
+  const twelfthIngredient = document.getElementById("twelfth-ingredient");
+  const thirteenthIngredient = document.getElementById("thirteenth-ingredient");
+  const fourteenthIngredient = document.getElementById("fourteenth-ingredient");
 
   firstIngredient.innerText = "3 pounds of ground beef";
   secondIngredient.innerText = "2 yellow onion, diced";
@@ -219,30 +215,30 @@ function renderIngredientsList() {
   ingredientsList.appendChild(optionFourteen);
 }
 
-// function renderDirections() {
+function renderDirections() {
   
-//   const stepOne = document.createElement("p");
-//   stepOne.setAttribute("id","step-one");
-//   const nodeOne = document.createTextNode("1. Add the ground beef, onion, and bell pepper to a large deep pot and cook over medium heat, breaking up the meat as it cooks. When meat is cooked through drain fat from pan.");
-//   stepOne.appendChild(nodeOne);
-//   const stepTwo = document.createElement("p");
-//   stepTwo.setAttribute("id","step-two");
-//   const nodeTwo = document.createTextNode("2. Add the jalapeno, garlic, tomato,");
-//   stepTwo.appendChild(nodeTwo);
-//   const stepThree = document.createElement("p");
-//   stepThree.setAttribute("id","step-three");
-//   const nodeThree = document.createTextNode("3. blah blah");
-//   stepThree.appendChild(nodeThree);
-//   const stepFour = document.createElement("p");
-//   stepFour.setAttribute("id","step-four");
-//   const nodeFour = document.createTextNode("4. bang bang");
-//   stepFour.appendChild(nodeFour);
+  const stepOne = document.createElement("p");
+  stepOne.setAttribute("id","step-one");
+  const stepTwo = document.createElement("p");
+  stepTwo.setAttribute("id","step-two");
+  const stepThree = document.createElement("p");
+  stepThree.setAttribute("id","step-three");
+  const stepFour = document.createElement("p");
+  stepFour.setAttribute("id","step-four");
 
-  
+  const directions = document.getElementById("recipe-directions");
+  directions.appendChild(stepOne);
+  directions.appendChild(stepTwo);
+  directions.appendChild(stepThree);
+  directions.appendChild(stepFour);
 
-//   const directions = document.getElementById("recipe-directions-cell");
-//   directions.appendChild(stepOne);
-//   directions.appendChild(stepTwo);
-//   directions.appendChild(stepThree);
-//   directions.appendChild(stepFour);
-// }
+  const firstStep = document.getElementById("step-one");
+  const secondStep = document.getElementById("step-two");
+  const thirdStep = document.getElementById("step-three");
+  const fourthStep = document.getElementById("step-four");
+
+  firstStep.innerText = "1. Add the ground beef, onion, and bell pepper to a large deep pot and cook over medium heat, breaking up the meat as it cooks. When meat is cooked through drain fat from pan.";
+  secondStep.innerText = "2. Add the jalapeno, garlic, tomato paste, diced tomatoes, beef broth, chili powder, cumin, and salt and stir.";
+  thirdStep.innerText = "3. Bring to a boil and reduce to a simmer. Simmer for at least 20 minutes, preferably an hour for the best taste and texture.";
+  fourthStep.innerText = "4. Serve with sour cream and shredded cheddar, as desired.";
+}
