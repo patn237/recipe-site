@@ -51,20 +51,20 @@ function fourServings() {
   const thirteenthIngredient = document.getElementById("thirteenth-ingredient");
   const fourteenthIngredient = document.getElementById("fourteenth-ingredient");
 
-  firstIngredient.innerText = "1.25 pound of ground beef";
-  secondIngredient.innerText = ".75 yellow onion, diced";
-  thirdIngredient.innerText = ".75 green pepper, diced";
-  fourthIngredient.innerText = ".75 red pepper, diced";
-  fifthIngredient.innerText = ".75 yellow pepper, diced";
-  sixthIngredient.innerText = "1 4oz can of diced green chiles";
-  seventhIngredient.innerText = ".75 tsp of garlic, minced";
-  eigthIngredient.innerText = ".25 cup tomato paste";
-  ninthIngredient.innerText = "1 15oz can of diced tomatoes";
-  tenthIngredient.innerText = "1 15oz can of diced fire roasted tomatoes";
-  eleventhIngredient.innerText = "1 cup bone beef broth";
-  twelfthIngredient.innerText = "3 tbsp chili powder";
-  thirteenthIngredient.innerText = ".75 tsp cumin";
-  fourteenthIngredient.innerText = ".75 tsp salt";
+  firstIngredient.innerHTML = "1&frac14 pound of ground beef";
+  secondIngredient.innerHTML = "&frac34 yellow onion, diced";
+  thirdIngredient.innerHTML = "&frac34 green pepper, diced";
+  fourthIngredient.innerHTML = "&frac34 red pepper, diced";
+  fifthIngredient.innerHTML = "&frac34 yellow pepper, diced";
+  sixthIngredient.innerHTML = "1 4oz can of diced green chiles";
+  seventhIngredient.innerHTML = "&frac34 tsp of garlic, minced";
+  eigthIngredient.innerHTML = "&frac14 cup tomato paste";
+  ninthIngredient.innerHTML = "1 15oz can of diced tomatoes";
+  tenthIngredient.innerHTML = "1 15oz can of diced fire roasted tomatoes";
+  eleventhIngredient.innerHTML = "1 cup bone beef broth";
+  twelfthIngredient.innerHTML = "3 tbsp chili powder";
+  thirteenthIngredient.innerHTML = "&frac34 tsp cumin";
+  fourteenthIngredient.innerHTML = "&frac34 tsp salt";
 }
 
 function sixServings() {
@@ -84,20 +84,20 @@ function sixServings() {
   const thirteenthIngredient = document.getElementById("thirteenth-ingredient");
   const fourteenthIngredient = document.getElementById("fourteenth-ingredient");
 
-  firstIngredient.innerText = "1.5 pounds of ground beef";
-  secondIngredient.innerText = "1 yellow onion, diced";
-  thirdIngredient.innerText = "1 green pepper, diced";
-  fourthIngredient.innerText = "1 red pepper, diced";
-  fifthIngredient.innerText = "1 yellow pepper, diced";
-  sixthIngredient.innerText = "1 4oz can of diced green chiles";
-  seventhIngredient.innerText = "1 tsp of garlic, minced";
-  eigthIngredient.innerText = ".25 cup tomato paste";
-  ninthIngredient.innerText = "1 15oz can of diced tomatoes";
-  tenthIngredient.innerText = "1 15oz can of diced fire roasted tomatoes";
-  eleventhIngredient.innerText = "1 cup bone beef broth";
-  twelfthIngredient.innerText = "4 tbsp chili powder";
-  thirteenthIngredient.innerText = "1 tsp cumin";
-  fourteenthIngredient.innerText = "1 tsp salt";
+  firstIngredient.innerHTML = "1&frac12 pounds of ground beef";
+  secondIngredient.innerHTML = "1 yellow onion, diced";
+  thirdIngredient.innerHTML = "1 green pepper, diced";
+  fourthIngredient.innerHTML = "1 red pepper, diced";
+  fifthIngredient.innerHTML = "1 yellow pepper, diced";
+  sixthIngredient.innerHTML = "1 4oz can of diced green chiles";
+  seventhIngredient.innerHTML = "1 tsp of garlic, minced";
+  eigthIngredient.innerHTML = "&frac14 cup tomato paste";
+  ninthIngredient.innerHTML = "1 15oz can of diced tomatoes";
+  tenthIngredient.innerHTML = "1 15oz can of diced fire roasted tomatoes";
+  eleventhIngredient.innerHTML = "1 cup bone beef broth";
+  twelfthIngredient.innerHTML = "4 tbsp chili powder";
+  thirteenthIngredient.innerHTML = "1 tsp cumin";
+  fourteenthIngredient.innerHTML = "1 tsp salt";
 }
 
 function eigthServings() {
@@ -117,20 +117,20 @@ function eigthServings() {
   const thirteenthIngredient = document.getElementById("thirteenth-ingredient");
   const fourteenthIngredient = document.getElementById("fourteenth-ingredient");
 
-  firstIngredient.innerText = "1.75 pounds of ground beef";
-  secondIngredient.innerText = "1.25 yellow onion, diced";
-  thirdIngredient.innerText = "1.25 green pepper, diced";
-  fourthIngredient.innerText = "1.25 red pepper, diced";
-  fifthIngredient.innerText = "1.25 yellow pepper, diced";
-  sixthIngredient.innerText = "1.25 4oz can of diced green chiles";
-  seventhIngredient.innerText = "1.25 tsp of garlic, minced";
-  eigthIngredient.innerText = ".50 cup tomato paste";
-  ninthIngredient.innerText = "1.25 15oz can of diced tomatoes";
-  tenthIngredient.innerText = "1.25 15oz can of diced fire roasted tomatoes";
-  eleventhIngredient.innerText = "1.25 cup bone beef broth";
-  twelfthIngredient.innerText = "5 tbsp chili powder";
-  thirteenthIngredient.innerText = "1.25 tsp cumin";
-  fourteenthIngredient.innerText = "1.25 tsp salt";
+  firstIngredient.innerHTML = "1&frac34 pounds of ground beef";
+  secondIngredient.innerHTML = "1&frac14 yellow onion, diced";
+  thirdIngredient.innerHTML = "1&frac14 green pepper, diced";
+  fourthIngredient.innerHTML = "1&frac14 red pepper, diced";
+  fifthIngredient.innerHTML = "1&frac14 yellow pepper, diced";
+  sixthIngredient.innerHTML = "1&frac14 4oz can of diced green chiles";
+  seventhIngredient.innerHTML = "1&frac14 tsp of garlic, minced";
+  eigthIngredient.innerHTML = "&frac12 cup tomato paste";
+  ninthIngredient.innerHTML = "1&frac14 15oz can of diced tomatoes";
+  tenthIngredient.innerHTML = "1&frac14 15oz can of diced fire roasted tomatoes";
+  eleventhIngredient.innerHTML = "1&frac14 cup bone beef broth";
+  twelfthIngredient.innerHTML = "5 tbsp chili powder";
+  thirteenthIngredient.innerHTML = "1&frac14 tsp cumin";
+  fourteenthIngredient.innerHTML = "1&frac14 tsp salt";
 }
 
 function twelveServings() {
@@ -150,20 +150,20 @@ function twelveServings() {
   const thirteenthIngredient = document.getElementById("thirteenth-ingredient");
   const fourteenthIngredient = document.getElementById("fourteenth-ingredient");
 
-  firstIngredient.innerText = "3 pounds of ground beef";
-  secondIngredient.innerText = "2 yellow onion, diced";
-  thirdIngredient.innerText = "2 green pepper, diced";
-  fourthIngredient.innerText = "2 red pepper, diced";
-  fifthIngredient.innerText = "2 yellow pepper, diced";
-  sixthIngredient.innerText = "2 4oz can of diced green chiles";
-  seventhIngredient.innerText = "2 tsp of garlic, minced";
-  eigthIngredient.innerText = ".50 cup tomato paste";
-  ninthIngredient.innerText = "2 15oz can of diced tomatoes";
-  tenthIngredient.innerText = "2 15oz can of diced fire roasted tomatoes";
-  eleventhIngredient.innerText = "2 cups bone beef broth";
-  twelfthIngredient.innerText = "8 tbsp chili powder";
-  thirteenthIngredient.innerText = "2 tsp cumin";
-  fourteenthIngredient.innerText = "2 tsp salt";
+  firstIngredient.innerHTML = "3 pounds of ground beef";
+  secondIngredient.innerHTML = "2 yellow onion, diced";
+  thirdIngredient.innerHTML = "2 green pepper, diced";
+  fourthIngredient.innerHTML = "2 red pepper, diced";
+  fifthIngredient.innerHTML = "2 yellow pepper, diced";
+  sixthIngredient.innerHTML = "2 4oz can of diced green chiles";
+  seventhIngredient.innerHTML = "2 tsp of garlic, minced";
+  eigthIngredient.innerHTML = "&frac12 cup tomato paste";
+  ninthIngredient.innerHTML = "2 15oz can of diced tomatoes";
+  tenthIngredient.innerHTML = "2 15oz can of diced fire roasted tomatoes";
+  eleventhIngredient.innerHTML = "2 cups bone beef broth";
+  twelfthIngredient.innerHTML = "8 tbsp chili powder";
+  thirteenthIngredient.innerHTML = "2 tsp cumin";
+  fourteenthIngredient.innerHTML = "2 tsp salt";
 }
 
 function renderIngredientsList() {
@@ -237,8 +237,8 @@ function renderDirections() {
   const thirdStep = document.getElementById("step-three");
   const fourthStep = document.getElementById("step-four");
 
-  firstStep.innerText = "1. Add the ground beef, onion, and bell pepper to a large deep pot and cook over medium heat, breaking up the meat as it cooks. When meat is cooked through drain fat from pan.";
-  secondStep.innerText = "2. Add the jalapeno, garlic, tomato paste, diced tomatoes, bone beef broth, chili powder, cumin, and salt, then stir.";
-  thirdStep.innerText = "3. Bring to a boil and reduce to a simmer. Simmer for at least 20 minutes, preferably an hour for the best taste and texture.";
-  fourthStep.innerText = "4. Serve with sour cream, shredded cheddar, and avocado as desired.";
+  firstStep.innerHTML = "1. Add the ground beef, onion, and bell pepper to a large deep pot and cook over medium heat, breaking up the meat as it cooks. When meat is cooked through drain fat from pan.";
+  secondStep.innerHTML = "2. Add the jalapeno, garlic, tomato paste, diced tomatoes, bone beef broth, chili powder, cumin, and salt, then stir.";
+  thirdStep.innerHTML = "3. Bring to a boil and reduce to a simmer. Simmer for at least 20 minutes, preferably an hour for the best taste and texture.";
+  fourthStep.innerHTML = "4. Serve with sour cream, shredded cheddar, and avocado as desired.";
 }
