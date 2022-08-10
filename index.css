@@ -1,0 +1,23 @@
+.main,
+.header {
+  text-align: center;
+}
+
+.header {
+  font-size: 40px;
+}
+
+.subheader {
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.recipe-links {
+  display: flex;
+  flex-direction: column;
+}
